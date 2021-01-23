@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: "Raleway",sans-serif;
+    background: lightblue;
+}
+header{
+    height: 100vh;
+    position: relative;
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100%;
+    
+}
+h1{
+    color: white;
+}
+.box1{ 
+    background-color: green;
+    text-align: center;
+    width: 5%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.box2{ 
+    background-color: orange;
+    text-align: center;
+    width: 5%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.box3{ 
+    background-color: purple;
+    text-align: center;
+    width: 5%;
+    padding: 10px 10px;
+
+    margin-bottom: 100%;
+ 
+}
+.box3.active{
+    background-color:red;
+}
